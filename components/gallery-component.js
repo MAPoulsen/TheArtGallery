@@ -4,4 +4,8 @@
         templateUrl: 'component/gallery-component.html',
         controller: GalleryController,
     })
+function GalleryController(){
+    
+}
+
 }())

@@ -4,5 +4,8 @@
         templateUrl: 'components/student-component.html',
         controller: StudentController,
     })
+    function StudentController(){
+        
+    }
     
 }())

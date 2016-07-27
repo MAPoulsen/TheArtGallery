@@ -1,5 +1,3 @@
-(function(){
-    angular.module('TheArtGallery', [
-        'firebase'
-    ])
+;(function(){
+    angular.module('TheArtGallery', [])
 }())

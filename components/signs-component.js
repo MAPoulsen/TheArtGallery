@@ -4,6 +4,8 @@
         templateUrl: 'components/signs-component.html',
         controller: SignsController,
     })
-
+function SignsController(){
+    
+}
     
 }())

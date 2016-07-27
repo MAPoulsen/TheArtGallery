@@ -2,8 +2,10 @@
     angular.module('TheArtGallery')
     .component('mixedComponent', {
         templateUrl: 'component/mixed-component.html',
-        controller: MixedComponent,
+        controller: MixedController,
     })
 
-    
+    function MixedController(){
+
+    }
 }())
