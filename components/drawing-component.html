@@ -1,0 +1,8 @@
+<div>
+    <h3>{{$ctrl.drawingComponent.title}}</h3>
+    <form ng-submit="$ctrl.addDrawing($ctrl.newDrawing)">
+        <input type="text" placeholder="title" ng-model="$ctrl.newDrawing.name">
+        <input type="text" placeholder="img" ng-model="$ctrl.newDrawing.img">
+   
+    </form>
+</div>

@@ -5,8 +5,14 @@
         controller: DrawingController,
 
     })
-  
-  function DrawingController(){
+  DrawingController.$inject = ['DrawingService']
+
+  function DrawingController(DrawingService){
+      var dc = this;
+      dc.myDrawings = DrawingService.getDrawingList();
+      dc.removeFromList = function(drawing){
+          DrawingService.removeDrawing(drawing)
+      }
 
   }
 
